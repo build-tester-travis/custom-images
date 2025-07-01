@@ -1,7 +1,10 @@
 
+os: linux
 language: generic
+dist: focal
 
 vm:
-  use:
-    name: build-tester-travis-i1
-  size: [gpu-medium]
+  size: gpu-medium
+
+script:
+  - echo "Testing GPU options"
