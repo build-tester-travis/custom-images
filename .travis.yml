@@ -4,4 +4,4 @@ dist: 1809-Containers-Windows-LongName-Test
 
 vm:
   create:
-    name: custom-images-i2
+    name: long_image_name_123456789
